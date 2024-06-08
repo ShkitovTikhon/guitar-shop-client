@@ -166,7 +166,6 @@ const SearchInput = () => {
             input: (defaultStyles) => ({
               ...defaultStyles,
               color: mode === 'dark' ? '#f2f2f2' : '#222222',
-           
             }),
             menu: (defaultStyles) => ({
               ...menuStyles(defaultStyles, mode),
