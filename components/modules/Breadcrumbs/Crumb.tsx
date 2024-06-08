@@ -8,9 +8,7 @@ import styles from '@/styles/breadcrumbs/index.module.scss'
 
 const Crumb = ({
   text: defaultText,
-  textGenerator,
-  href,
-  last = false,
+  textGenerator, href, last = false,
 }: ICrumbProps) => {
   const [text, setText] = useState(defaultText)
   const mode = useStore($mode)
