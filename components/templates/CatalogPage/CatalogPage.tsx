@@ -217,7 +217,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
           <AnimatePresence>
             {isAnyGuitarManufacturerChecked && (
               <ManufacturersBlock
-                title="Производитель:"
+                title="Производитель котлов:"
                 event={updateGuitarManufacturer}
                 manufacturersList={guitarManufacturers}
               />
@@ -226,7 +226,7 @@ const CatalogPage = ({ query }: { query: IQueryParams }) => {
           <AnimatePresence>
             {isAnyPartsManufacturerChecked && (
               <ManufacturersBlock
-                title="Категория:"
+                title="Производитель запчастей:"
                 event={updatePartsManufacturer}
                 manufacturersList={partsManufacturers}
               />

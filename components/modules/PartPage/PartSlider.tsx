@@ -25,9 +25,7 @@ const PartSlider = ({ images }: { images: string[] }) => {
         <div
           className={styles.part__slide}
           key={i}
-          style={{ width: isMobile530 ? 300 : isMobile700 ? 350 : 593,
-        
-          }}
+          style={{ width: isMobile530 ? 300 : isMobile700 ? 350 : 593 }}
         >
           <img src={src} alt={`image-${i + 1}`} />
         </div>

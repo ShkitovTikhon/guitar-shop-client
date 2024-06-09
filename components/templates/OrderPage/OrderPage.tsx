@@ -141,7 +141,7 @@ const OrderPage = () => {
                   checked={agreement}
                 />
                 <span className={styles.order__pay__rights__text}>
-                  <strong>Согласен с условиями</strong> Правил пользования
+                  <strong>Согласен с условиями</strong>Правил пользования
                   торговой площадкой и правилами возврата
                 </span>
               </label>

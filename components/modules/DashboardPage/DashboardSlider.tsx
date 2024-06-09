@@ -71,7 +71,7 @@ const DashboardSlider = ({
             key={item.id}
             style={width}
           >
-            <img  src={JSON.parse(item.images)[0]} alt={item.name} />
+            <img src={JSON.parse(item.images)[0]} alt={item.name} />
             <div className={styles.dashboard__slide__inner}>
               <Link
                 href={goToPartPage ? `/catalog/${item.id}` : '/catalog'}
@@ -94,7 +94,7 @@ const DashboardSlider = ({
           </div>
         ))
       ) : (
-        <span>Список товаров пуст....</span>
+        <span>Список товаров пуст...</span>
       )}
     </Slider>
   )
